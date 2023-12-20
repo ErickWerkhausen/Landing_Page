@@ -1,0 +1,169 @@
+/* ------------------ Header ------------------ */
+
+header {
+    background-color: #F59606;
+}
+
+.navbar .navbar-brand {
+    color: #2C2924;
+    font-family: 'Kalnia', serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* -------------------------------------------- */
+body {
+    background-color: #cccc;
+}
+
+.carousel-inner .carousel-item img {
+    width: 100%;
+    height: 500px;
+}
+
+.navbar-nav .nav-link.active {
+    background: #2C2924;
+    color: #FDFDFD;
+}
+
+.navbar-nav .nav-link {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: .2rem;
+}
+
+#produtos span,
+.section-title,
+.nav.nav-tabs {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #F59606;
+    text-decoration: none;
+}
+
+.nav.nav-tabs {
+    border-bottom-color: #2C2924;
+}
+
+.nav .nav-link.active {
+    background-color: #F59606;
+    border: px solid #2C2924;
+    color: #2C2924;
+}
+
+.nav .nav-link.active:hover {
+    border-color: #2C2924;
+    color: #2C2924;
+}
+
+.nav .nav-link {
+    border: none;
+    color: #2C2924;
+
+}
+
+.nav .nav-link:hover {
+    color: #F59606;
+}
+
+
+.card {
+    transition: all 0.3s;
+    text-decoration: none;
+}
+
+.card:hover {
+    transform: scale(1.14);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#mostruario .card img {
+    width: 254px;
+    height: 153px;
+}
+
+#contato {
+    align-items: center;
+
+}
+
+#contato form button{
+    border: 2px solid #2C2924;
+}
+
+#contato form button:hover{
+    background-color: #2C2924;
+}
+
+.social-links,
+form {
+    color: #F59606;
+    ;
+}
+
+.social-links li {
+    list-style: style none;
+    display: inline;
+    text-decoration: none;
+
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #F59606;
+}
+
+@media  screen and (min-width: 320px) and (max-width: 480px){
+    #produtos-item a,
+    .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+
+    .carousel-inner .carousel-item img {
+        height: 200px;
+    }
+
+    #contato form button{
+    background-color: #2C2924;
+    color: #F59606;
+    width: 100%;
+    }
+    }
+
+@media  screen and (min-width: 481px ) and (max-width: 768px){ 
+    #produtos-item a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+
+    .carousel-inner .carousel-item img {
+        height: 400px;
+    }
+
+    #contato form button{
+        background-color: #2C2924;
+        color: #F59606;
+        width: 100%;
+        }
+
+        #contato {
+            display: flex;
+            align-items: center;
+        }
+        #contato .row {
+            display: flex;
+            justify-content: center;
+        }
+    }
+    
+@media  screen and (min-width: 769px ) and (max-width: 1024px){
+    #produtos-item a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+    }
